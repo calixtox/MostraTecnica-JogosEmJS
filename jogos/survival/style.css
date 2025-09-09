@@ -239,28 +239,6 @@ body {
   text-align: center;
 }
 
-#positions {
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-  flex-wrap: wrap;
-}
-
-#positions button {
-  font-size: 18px;
-  padding: 20px 40px;
-  background-color: #fda013;
-  color: #fffbe6;
-  border: none;
-  border-radius: 8px;
-  cursor: pointer;
-  transition: background-color 0.2s ease;
-}
-
-#positions button:hover {
-  background-color: #e57300;
-}
-
 /* Botão de trocar o cenário */
 #switchBtn {
   position: absolute;
