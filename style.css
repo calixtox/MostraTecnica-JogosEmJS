@@ -13,20 +13,20 @@ html, body {
 body {
   font-family: 'Varela Round', sans-serif;
   font-size: 14px;
-  color: #333;
-  background: #fffbe6;
+  color: #ff7875; 
+  background: #0d0d0d; 
   line-height: 1.6;
   display: flex;
   flex-direction: column;
 }
 
 a {
-  color: #333;
+  color: #ff7875;
   text-decoration: none;
 }
 
 a:hover {
-  color: #e10000;
+  color: #ff0200;
 }
 
 img {
@@ -58,11 +58,10 @@ img {
   max-width: 990px;
   margin: 20px auto 0;
   padding: 15px 20px;
-  background-color: #fff4c2; 
-  border: 1px solid #e1b84a;  
+  background-color: #710000;
+  border: 1px solid #ff7875;  
   border-radius: 6px;
-  color: #8a5c00;            
-  margin-top: 2;
+  color: #ff7875;            
   flex-wrap: wrap;
   gap: 10px;
 }
@@ -70,7 +69,7 @@ img {
 #header-banner {
   flex: 1;
   text-align: center;
-  color: #8a5c00;
+  color: #ff7875;
   font-size: 14px;
 }
 
@@ -80,26 +79,26 @@ img {
 }
 
 .header-buttons a {
-  background-color: #fda013;  
-  color: #fffbe6;             
+  background-color: #000000;  
+  color: #ff7875;             
   padding: 6px 14px;
   font-size: 14px;
   border-radius: 4px;
   text-decoration: none;
-  border: 1px solid #e1b84a;   
+  border: 1px solid #710000;   
   cursor: pointer;
   transition: background-color 0.2s ease, transform 0.15s ease;
   font-weight: bold;
 }
 
 .header-buttons a:hover {
-  background-color: #e57300;
+  background-color: #ac0d0d;
   transform: scale(1.05);
 }
 
 #header-button .banner-button {
-  background-color: #fda013;
-  color: #fffbe6;
+  background-color: #ff0200;
+  color: #ff7875;
   padding: 6px 12px;
   font-size: 14px;
   border-radius: 4px;
@@ -110,13 +109,11 @@ img {
 }
 
 #header-button .banner-button:hover {
-  background-color: #e57300;
+  background-color: #710000;
 }
 
-
-
 #logo h1 a {
-  color: #8a5c00;
+  color: #ff7875;
   font-size: 24px;
   font-weight: bold;
 }
@@ -126,22 +123,21 @@ img {
 }
 
 .h2_block {
-  background: linear-gradient(to right, #fffbe6, #ffe4a1, #ffd366);
-  border-left: 5px solid #fda013;
+  background: linear-gradient(to right, #710000, #ff0200);
+  border-left: 5px solid #ff0200;
   padding: 10px 15px;
   margin-bottom: 20px;
   border-radius: 4px;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 1px 3px rgba(255, 0, 0, 0.1);
 }
 
 .h2_block h2 {
   font-size: 20px;
   font-weight: bold;
-  color: #8a5c00;
+  color: #ff7875;
   margin: 0;
   padding: 0;
 }
-
 
 .columns {
   display: flex;
@@ -171,26 +167,26 @@ img {
 
 .game h3 {
   font-size: 14px;
-  color: #000;
+  color: #ff7875;
   margin: 8px 0 4px;
   text-align: center;
 }
 
 .game p {
   font-size: 12px;
-  color: #666;
+  color: #ff0200;
   text-align: center;
 }
 
 #recommended {
-  background: linear-gradient(to bottom, #fff4c2, #fffbe6);
-  border: 1px solid #e1c97f;
+  background: linear-gradient(to bottom, #000000, #710000);
+  border: 1px solid #ff7875;
   border-radius: 6px;
   padding: 20px;
   margin-top: 30px;
   width: 950px;
   height: 775px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.03);
+  box-shadow: 0 2px 4px rgba(255, 0, 0, 0.1);
 }
 
 .final {
@@ -199,23 +195,21 @@ img {
   margin: 430px auto 0;
   padding-top: 10px;
   border-top: 0px solid #ccc;
-  color: #999;
+  color: #ff7875;
   font-style: italic;
   font-size: 13px;
 }
 
 #footer {
-  background-color: #fff4c2;
-  border-top: 1px solid #e1b84a;
+  background-color: #710000;
+  border-top: 1px solid #ff7875;
   padding: 20px 10px;
   font-size: 13px;
-  color: #8a5c00;
+  color: #ff7875;
   margin-top: 40px;
   border-radius: 6px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.03); 
+  box-shadow: 0 2px 4px rgba(255, 0, 0, 0.1); 
 }
-
-
 
 .footer-inner {
   max-width: 990px;
@@ -228,74 +222,64 @@ img {
   justify-content: space-between;
   flex-wrap: wrap;
   align-items: center;
+  color: #ff7875;
 }
-
-
-
-#footer .information {
-  max-width: 990px;     
-  width: 100%;
-  margin: 0 auto;
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  align-items: center;
-}
-
-
 
 #footer .information ul {
   list-style: none;
   display: flex;
   gap: 10px;
+  color: #ff7875;
 }
 
 #footer .information a {
-  color: #8a5c00;
+  color: #ff7875;
   border-bottom: 1px solid transparent;
 }
 
 #footer .information a:hover {
-  border-bottom-color: #e10000;
-}
-
-.team-list {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 20px;
-  padding: 20px 0;
+  border-bottom-color: #ff0200;
 }
 
 .team-member {
-  width: 200px;
-  text-align: center;
-  background: linear-gradient(to bottom, #fff4c2, #fffbe6);
-  border: 1px solid #e1c97f;
-  border-radius: 6px;
+  width: 200px; 
+  text-align: center; 
+  background: linear-gradient(to bottom, #000000, #710000); 
+  border: 1px solid #ff7875; 
+  border-radius: 6px; 
   padding: 15px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.03);
 }
 
+.team-row {
+  display: flex; 
+  gap: 20px; 
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
 .team-member img {
-  width: 100px;
-  height: 100px;
-  object-fit: cover;
-  border-radius: 50%;
-  margin-bottom: 10px;
+  width: 300px; 
+  height: 175px; 
+  object-fit: cover; 
+  flex: auto;
+  margin-bottom: 10px; 
 }
 
 .team-member h3 {
-  font-size: 16px;
-  color: #8a5c00;
-  margin: 8px 0;
+  font-size: 16px; 
+  color: #ff7875; 
+  margin: 8px 0; 
 }
 
 .team-member p {
   font-size: 13px;
-  color: #555;
+  color: #ff0200;
 }
 
-
-
+.equipe-page .h2_block {
+  background: linear-gradient(to right, #000000, #710000);
+  border-left: 5px solid #ff0200;
+  color: #ff7875; 
+}
 
