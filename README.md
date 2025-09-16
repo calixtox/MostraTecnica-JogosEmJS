@@ -2,7 +2,7 @@
 Este projeto faz parte do Curso Técnico de Informática do Colégio Realengo, em que terá de ser feito 2 jogos por meio do JS e CSS.
 
 ----
-# Jogos
+## Jogos
 
 1. Se Esconda
     - Descrição: Dê o seu melhor para se esconder do assassino.
