@@ -7,7 +7,7 @@ Este projeto faz parte do Curso Técnico de Informática do Colégio Realengo, e
 1. Se Esconda
     - Descrição: Dê o seu melhor para se esconder do assassino.
 
-2. Matemáticando
+2. Matemáticando 
     - Descrição: Responda as perguntas o mais rapido possivel.
 
 ----
